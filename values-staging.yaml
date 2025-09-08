@@ -1,5 +1,12 @@
-replicaCount: 2
+replicaCount: 3
+
 image:
+  repository: us-central1-docker.pkg.dev/gcp-zero-to-hero-467513/microservicequiz/nodejs-app
   tag: preprod-2c70611e276e9df3766dda733a0e4c8420f86ae7
+  pullPolicy: IfNotPresent
+
 service:
   type: ClusterIP
+  port: 3000
+
+resources: {}
