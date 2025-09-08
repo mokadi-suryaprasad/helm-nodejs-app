@@ -1,5 +1,5 @@
 replicaCount: 2
 image:
-  tag: staging
+  tag: preprod-fb64a647980ba267daa8f148d563b4a998f89f87
 service:
   type: ClusterIP
