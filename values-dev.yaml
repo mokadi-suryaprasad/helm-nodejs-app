@@ -1,5 +1,5 @@
 replicaCount: 1
 image:
-  tag: dev-a3e9955fccde36b08350075f5d09ed9d20d74990
+  tag: dev-0657756c173cf2124441ae3c731c2fc1db1588f4
 service:
   type: ClusterIP
